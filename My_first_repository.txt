@@ -1,1 +1,14 @@
-Ì³é ïåðøèé ðåïîçèòîð³é
+ÐœÑ–Ð¹ Ð¿ÐµÑ€ÑˆÐ¸Ð¹ Ñ€ÐµÐ¿Ð¾Ð·Ð¸Ñ‚Ð¾Ñ€Ñ–Ð¹
+â€¦or create a new repository on the command line
+echo "# LR_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dagi1011/LR_1
+git push -u origin main
+                
+â€¦or push an existing repository from the command line
+git remote add origin https://github.com/Dagi1011/LR_1
+git branch -M main
+git push -u origin main
